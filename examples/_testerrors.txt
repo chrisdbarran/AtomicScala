@@ -1,0 +1,26 @@
+LinearRegression.scala:3: error: object apache is not a member of package org
+import org.apache.commons.math3._
+           ^
+LinearRegression.scala:4: error: not found: value stat
+import stat.regression.SimpleRegression
+       ^
+LinearRegression.scala:6: error: not found: type SimpleRegression
+val r = new SimpleRegression
+            ^
+Uncaught
+May 01, 2015 3:15:53 PM com.atomicscala.Logging$class info
+INFO: Constructing a LoggingTest
+May 01, 2015 3:15:53 PM com.atomicscala.Logging$class trace
+FINER: entering f
+May 01, 2015 3:15:53 PM com.atomicscala.Logging$class trace
+FINER: leaving f
+May 01, 2015 3:15:53 PM com.atomicscala.Logging$class debug
+FINE: inside g with i: 0
+May 01, 2015 3:15:53 PM com.atomicscala.Logging$class debug
+FINE: inside g with i: -1
+May 01, 2015 3:15:53 PM com.atomicscala.Logging$class error
+SEVERE: i less than 0
+May 01, 2015 3:15:53 PM com.atomicscala.Logging$class debug
+FINE: inside g with i: 101
+May 01, 2015 3:15:53 PM com.atomicscala.Logging$class warn
+WARNING: i getting high: 101
